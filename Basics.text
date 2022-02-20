@@ -1,0 +1,14 @@
+try{
+    statement-1;
+    statement-2;
+    statement- 3
+    }
+catch(excetion e){
+    statement-4
+}
+    statemtent-5
+
+case-1:if no exception occurs --->1,2,3,4 normal termination.
+case-1:if exception occurs at 2 and matches catch block --->1,4,5 --normal termination.
+case-3:if exception occurs at 2 and catch block not matches --->
+1,abnormal termination.
